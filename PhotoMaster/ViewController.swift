@@ -110,7 +110,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         UIGraphicsBeginImageContext(image.size)
         
-        image.draw(in: CGRect(x: 30, y: 0, width: image.size.width, height: image.size.height))
+        image.draw(in: CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height))
         
         let margin: CGFloat = 50.0
         let maskRect = CGRect(x: image.size.width - maskImage.size.width - margin, y: image.size.height - maskImage.size.height - margin, width: maskImage.size.width, height: maskImage.size.height)
